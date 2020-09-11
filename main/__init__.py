@@ -1,5 +1,5 @@
-from flask import Flask
+from flask import Flask #import flask
 
-app = Flask(__name__)
+app = Flask(__name__) #initialize a Flask instance
 
-from .routes.routes import *
+from .routes.routes import * #import all of the routes
